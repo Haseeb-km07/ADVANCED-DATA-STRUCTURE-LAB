@@ -2,7 +2,7 @@
 int top=-1,s[5],i,item,choice;
 void push (int item)
 {
-if (top>=5)
+if (top>=4)
 {
 printf("stack is full\n");
 }
