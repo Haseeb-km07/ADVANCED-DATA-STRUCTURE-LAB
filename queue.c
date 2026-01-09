@@ -2,7 +2,7 @@
 int Q[5],i,item,size,front=-1,rear=-1;
 void enqueue (int item)
 {
-    if (rear == size)
+    if (rear == size-1)
     {
         printf("Queue is full\n");
     }
